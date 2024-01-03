@@ -35,3 +35,18 @@ body {
     margin-bottom: 20px;
   }
   
+  @media screen and (max-width: 768px) {
+    header > h1 {
+        font-size: 30px; /* Adjust the font size for smaller screens */
+    }
+
+    nav > button > a {
+        font-size: 20px; /* Adjust the font size for navigation links */
+        padding-right: 2em; /* Modify padding for smaller screens */
+    }
+
+    main > section#Design > aside > img,
+    aside > ul > li > img {
+        width: 150px; /* Reduce the image width for smaller screens */
+    }
+  }
