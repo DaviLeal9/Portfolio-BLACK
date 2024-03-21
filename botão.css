@@ -8,6 +8,7 @@ button {
     font-weight: bolder;
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px rgb(16, 36, 215);
+    z-index: 10;
   }
   
   button:hover {
